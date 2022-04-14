@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F6D91127CC709400A0D8E3 /* LinguaGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D91027CC709400A0D8E3 /* LinguaGoApp.swift */; };
+		29F6D91327CC709400A0D8E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D91227CC709400A0D8E3 /* ContentView.swift */; };
+		29F6D91527CC709600A0D8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F6D91427CC709600A0D8E3 /* Assets.xcassets */; };
+		29F6D91827CC709600A0D8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F6D91727CC709600A0D8E3 /* Preview Assets.xcassets */; };
+		29F6D92027CC726A00A0D8E3 /* KoreanMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D91F27CC726A00A0D8E3 /* KoreanMain.swift */; };
+		29F6D92327CC74B100A0D8E3 /* Hangul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D92227CC74B100A0D8E3 /* Hangul.swift */; };
+		29F6D92627CC75B500A0D8E3 /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D92527CC75B500A0D8E3 /* LevelOne.swift */; };
+		29F6D92927CC766C00A0D8E3 /* LevelOneLsOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D92827CC766C00A0D8E3 /* LevelOneLsOne.swift */; };
+		29F6D92B27CC767F00A0D8E3 /* LevelOneLsTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D92A27CC767F00A0D8E3 /* LevelOneLsTwo.swift */; };
+		29F6D92D27CC768E00A0D8E3 /* LevelOneLsThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D92C27CC768E00A0D8E3 /* LevelOneLsThree.swift */; };
+		29F6D92F27CC769C00A0D8E3 /* LevelOneLsFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D92E27CC769C00A0D8E3 /* LevelOneLsFour.swift */; };
+		29F6D93127CC76B100A0D8E3 /* LevelOneLsFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D93027CC76B100A0D8E3 /* LevelOneLsFive.swift */; };
+		29F6D93627CC7C9300A0D8E3 /* WordsTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D93527CC7C9300A0D8E3 /* WordsTime.swift */; };
+		29F6D93827CC7CA400A0D8E3 /* WordsPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D93727CC7CA400A0D8E3 /* WordsPlaces.swift */; };
+		29F6D93B27CC80FD00A0D8E3 /* EnglishMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D93A27CC80FD00A0D8E3 /* EnglishMain.swift */; };
+		29F6D93E27CC824500A0D8E3 /* Listening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D93D27CC824500A0D8E3 /* Listening.swift */; };
+		29F6D94027CC834E00A0D8E3 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D93F27CC834E00A0D8E3 /* Reading.swift */; };
+		29F6D94227CC835E00A0D8E3 /* Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D94127CC835E00A0D8E3 /* Writing.swift */; };
+		29F6D94427CC836C00A0D8E3 /* Speaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D94327CC836C00A0D8E3 /* Speaking.swift */; };
+		29F6D94727CC842A00A0D8E3 /* American.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D94627CC842A00A0D8E3 /* American.swift */; };
+		29F6D94927CC843E00A0D8E3 /* British.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D94827CC843E00A0D8E3 /* British.swift */; };
+		29F6D94B27CC845000A0D8E3 /* Australian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D94A27CC845000A0D8E3 /* Australian.swift */; };
+		29F6D94D27CC845D00A0D8E3 /* Irish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6D94C27CC845D00A0D8E3 /* Irish.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29F6D90D27CC709400A0D8E3 /* LinguaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F6D91027CC709400A0D8E3 /* LinguaGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinguaGoApp.swift; sourceTree = "<group>"; };
+		29F6D91227CC709400A0D8E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29F6D91427CC709600A0D8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F6D91727CC709600A0D8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29F6D91F27CC726A00A0D8E3 /* KoreanMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanMain.swift; sourceTree = "<group>"; };
+		29F6D92227CC74B100A0D8E3 /* Hangul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangul.swift; sourceTree = "<group>"; };
+		29F6D92527CC75B500A0D8E3 /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
+		29F6D92827CC766C00A0D8E3 /* LevelOneLsOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneLsOne.swift; sourceTree = "<group>"; };
+		29F6D92A27CC767F00A0D8E3 /* LevelOneLsTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneLsTwo.swift; sourceTree = "<group>"; };
+		29F6D92C27CC768E00A0D8E3 /* LevelOneLsThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneLsThree.swift; sourceTree = "<group>"; };
+		29F6D92E27CC769C00A0D8E3 /* LevelOneLsFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneLsFour.swift; sourceTree = "<group>"; };
+		29F6D93027CC76B100A0D8E3 /* LevelOneLsFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneLsFive.swift; sourceTree = "<group>"; };
+		29F6D93527CC7C9300A0D8E3 /* WordsTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTime.swift; sourceTree = "<group>"; };
+		29F6D93727CC7CA400A0D8E3 /* WordsPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsPlaces.swift; sourceTree = "<group>"; };
+		29F6D93A27CC80FD00A0D8E3 /* EnglishMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishMain.swift; sourceTree = "<group>"; };
+		29F6D93D27CC824500A0D8E3 /* Listening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listening.swift; sourceTree = "<group>"; };
+		29F6D93F27CC834E00A0D8E3 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+		29F6D94127CC835E00A0D8E3 /* Writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writing.swift; sourceTree = "<group>"; };
+		29F6D94327CC836C00A0D8E3 /* Speaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaking.swift; sourceTree = "<group>"; };
+		29F6D94627CC842A00A0D8E3 /* American.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American.swift; sourceTree = "<group>"; };
+		29F6D94827CC843E00A0D8E3 /* British.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = British.swift; sourceTree = "<group>"; };
+		29F6D94A27CC845000A0D8E3 /* Australian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Australian.swift; sourceTree = "<group>"; };
+		29F6D94C27CC845D00A0D8E3 /* Irish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Irish.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F6D90A27CC709400A0D8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F6D90427CC709400A0D8E3 = {
+			isa = PBXGroup;
+			children = (
+				29F6D90F27CC709400A0D8E3 /* LinguaGo */,
+				29F6D90E27CC709400A0D8E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F6D90E27CC709400A0D8E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D90D27CC709400A0D8E3 /* LinguaGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F6D90F27CC709400A0D8E3 /* LinguaGo */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D93927CC80EF00A0D8E3 /* English */,
+				29F6D91E27CC721800A0D8E3 /* Korean */,
+				29F6D91027CC709400A0D8E3 /* LinguaGoApp.swift */,
+				29F6D91227CC709400A0D8E3 /* ContentView.swift */,
+				29F6D91427CC709600A0D8E3 /* Assets.xcassets */,
+				29F6D91627CC709600A0D8E3 /* Preview Content */,
+			);
+			path = LinguaGo;
+			sourceTree = "<group>";
+		};
+		29F6D91627CC709600A0D8E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D91727CC709600A0D8E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29F6D91E27CC721800A0D8E3 /* Korean */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D93227CC78FF00A0D8E3 /* Additional */,
+				29F6D92427CC75A200A0D8E3 /* Levels */,
+				29F6D91F27CC726A00A0D8E3 /* KoreanMain.swift */,
+				29F6D92227CC74B100A0D8E3 /* Hangul.swift */,
+			);
+			path = Korean;
+			sourceTree = "<group>";
+		};
+		29F6D92427CC75A200A0D8E3 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D92727CC75E700A0D8E3 /* LevelOne */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		29F6D92727CC75E700A0D8E3 /* LevelOne */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D92527CC75B500A0D8E3 /* LevelOne.swift */,
+				29F6D92827CC766C00A0D8E3 /* LevelOneLsOne.swift */,
+				29F6D92A27CC767F00A0D8E3 /* LevelOneLsTwo.swift */,
+				29F6D92C27CC768E00A0D8E3 /* LevelOneLsThree.swift */,
+				29F6D92E27CC769C00A0D8E3 /* LevelOneLsFour.swift */,
+				29F6D93027CC76B100A0D8E3 /* LevelOneLsFive.swift */,
+			);
+			path = LevelOne;
+			sourceTree = "<group>";
+		};
+		29F6D93227CC78FF00A0D8E3 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D93527CC7C9300A0D8E3 /* WordsTime.swift */,
+				29F6D93727CC7CA400A0D8E3 /* WordsPlaces.swift */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		29F6D93927CC80EF00A0D8E3 /* English */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D94527CC841900A0D8E3 /* Accents */,
+				29F6D93C27CC823700A0D8E3 /* Sections */,
+				29F6D93A27CC80FD00A0D8E3 /* EnglishMain.swift */,
+			);
+			path = English;
+			sourceTree = "<group>";
+		};
+		29F6D93C27CC823700A0D8E3 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D93D27CC824500A0D8E3 /* Listening.swift */,
+				29F6D93F27CC834E00A0D8E3 /* Reading.swift */,
+				29F6D94127CC835E00A0D8E3 /* Writing.swift */,
+				29F6D94327CC836C00A0D8E3 /* Speaking.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		29F6D94527CC841900A0D8E3 /* Accents */ = {
+			isa = PBXGroup;
+			children = (
+				29F6D94627CC842A00A0D8E3 /* American.swift */,
+				29F6D94827CC843E00A0D8E3 /* British.swift */,
+				29F6D94A27CC845000A0D8E3 /* Australian.swift */,
+				29F6D94C27CC845D00A0D8E3 /* Irish.swift */,
+			);
+			path = Accents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F6D90C27CC709400A0D8E3 /* LinguaGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F6D91B27CC709600A0D8E3 /* Build configuration list for PBXNativeTarget "LinguaGo" */;
+			buildPhases = (
+				29F6D90927CC709400A0D8E3 /* Sources */,
+				29F6D90A27CC709400A0D8E3 /* Frameworks */,
+				29F6D90B27CC709400A0D8E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinguaGo;
+			productName = LinguaGo;
+			productReference = 29F6D90D27CC709400A0D8E3 /* LinguaGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F6D90527CC709400A0D8E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					29F6D90C27CC709400A0D8E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 29F6D90827CC709400A0D8E3 /* Build configuration list for PBXProject "LinguaGo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29F6D90427CC709400A0D8E3;
+			productRefGroup = 29F6D90E27CC709400A0D8E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F6D90C27CC709400A0D8E3 /* LinguaGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F6D90B27CC709400A0D8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F6D91827CC709600A0D8E3 /* Preview Assets.xcassets in Resources */,
+				29F6D91527CC709600A0D8E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F6D90927CC709400A0D8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F6D92627CC75B500A0D8E3 /* LevelOne.swift in Sources */,
+				29F6D92D27CC768E00A0D8E3 /* LevelOneLsThree.swift in Sources */,
+				29F6D92B27CC767F00A0D8E3 /* LevelOneLsTwo.swift in Sources */,
+				29F6D93627CC7C9300A0D8E3 /* WordsTime.swift in Sources */,
+				29F6D94927CC843E00A0D8E3 /* British.swift in Sources */,
+				29F6D93B27CC80FD00A0D8E3 /* EnglishMain.swift in Sources */,
+				29F6D93E27CC824500A0D8E3 /* Listening.swift in Sources */,
+				29F6D94B27CC845000A0D8E3 /* Australian.swift in Sources */,
+				29F6D91327CC709400A0D8E3 /* ContentView.swift in Sources */,
+				29F6D91127CC709400A0D8E3 /* LinguaGoApp.swift in Sources */,
+				29F6D94027CC834E00A0D8E3 /* Reading.swift in Sources */,
+				29F6D92327CC74B100A0D8E3 /* Hangul.swift in Sources */,
+				29F6D94D27CC845D00A0D8E3 /* Irish.swift in Sources */,
+				29F6D93127CC76B100A0D8E3 /* LevelOneLsFive.swift in Sources */,
+				29F6D94727CC842A00A0D8E3 /* American.swift in Sources */,
+				29F6D92027CC726A00A0D8E3 /* KoreanMain.swift in Sources */,
+				29F6D94227CC835E00A0D8E3 /* Writing.swift in Sources */,
+				29F6D94427CC836C00A0D8E3 /* Speaking.swift in Sources */,
+				29F6D92F27CC769C00A0D8E3 /* LevelOneLsFour.swift in Sources */,
+				29F6D92927CC766C00A0D8E3 /* LevelOneLsOne.swift in Sources */,
+				29F6D93827CC7CA400A0D8E3 /* WordsPlaces.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29F6D91927CC709600A0D8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29F6D91A27CC709600A0D8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F6D91C27CC709600A0D8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinguaGo/Preview Content\"";
+				DEVELOPMENT_TEAM = FTVGWGUCPB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LinguaGo.LinguaGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29F6D91D27CC709600A0D8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinguaGo/Preview Content\"";
+				DEVELOPMENT_TEAM = FTVGWGUCPB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LinguaGo.LinguaGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F6D90827CC709400A0D8E3 /* Build configuration list for PBXProject "LinguaGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F6D91927CC709600A0D8E3 /* Debug */,
+				29F6D91A27CC709600A0D8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F6D91B27CC709600A0D8E3 /* Build configuration list for PBXNativeTarget "LinguaGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F6D91C27CC709600A0D8E3 /* Debug */,
+				29F6D91D27CC709600A0D8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F6D90527CC709400A0D8E3 /* Project object */;
+}
